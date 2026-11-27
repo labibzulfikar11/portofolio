@@ -524,3 +524,400 @@ footer span {
 .navbar-scrolled {
     box-shadow: 0 5px 25px rgba(0, 0, 0, .3);
 }
+
+/* ==================================
+   MODERN PERSONAL PROFILE
+================================== */
+
+.profile-modern-card {
+    background: rgba(12, 25, 43, 0.88);
+    border: 1px solid rgba(0, 217, 255, 0.12);
+    border-radius: 18px;
+    padding: 26px;
+    margin-bottom: 22px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    transition: border-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.profile-modern-card:hover {
+    border-color: rgba(0, 217, 255, 0.30);
+}
+
+/* PROFILE HEADER */
+
+.profile-hero {
+    padding: 30px;
+}
+
+.profile-hero .about-photo {
+    width: 100%;
+    max-width: 230px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 18px;
+    border: 2px solid rgba(0, 217, 255, 0.35);
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.10);
+}
+
+.profile-tag {
+    display: inline-block;
+    color: #00d9ff;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.profile-name {
+    font-size: clamp(25px, 3vw, 36px);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.profile-name span {
+    color: #00d9ff;
+}
+
+.profile-role {
+    color: #00d9ff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.profile-description {
+    color: #aab8c8;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* SECTION HEADING */
+
+.profile-section-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 25px;
+}
+
+.profile-heading-icon {
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    background: rgba(0, 217, 255, 0.09);
+    border: 1px solid rgba(0, 217, 255, 0.15);
+    color: #00d9ff;
+    font-size: 21px;
+}
+
+.profile-section-heading span {
+    display: block;
+    color: #00d9ff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.profile-section-heading h3 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* BIODATA */
+
+.biodata-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+}
+
+.biodata-item {
+    padding: 17px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    min-width: 0;
+}
+
+.biodata-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #8ea6bb;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.biodata-label i {
+    color: #00d9ff;
+    font-size: 15px;
+}
+
+.biodata-item p {
+    color: #f1f5f9;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.65;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+/* EDUCATION TIMELINE */
+
+.education-timeline {
+    margin-left: 8px;
+    padding-left: 24px;
+    border-left: 1px solid rgba(0, 217, 255, 0.22);
+}
+
+.education-entry {
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.education-entry:last-child {
+    padding-bottom: 0;
+}
+
+.education-marker {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 4px;
+    left: -30px;
+    border-radius: 50%;
+    background: #00d9ff;
+    box-shadow: 0 0 12px rgba(0, 217, 255, 0.4);
+}
+
+.education-level {
+    color: #00d9ff;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.education-content h4 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 7px 0;
+}
+
+.education-content p {
+    color: #94a8bb;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* WORK EXPERIENCE */
+
+.work-experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+}
+
+.work-experience-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    padding: 17px;
+    border-radius: 13px;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: 0.3s ease;
+    min-width: 0;
+}
+
+.work-experience-card:hover {
+    background: rgba(0, 217, 255, 0.045);
+    border-color: rgba(0, 217, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.work-company-icon {
+    width: 39px;
+    height: 39px;
+    min-width: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    background: rgba(0, 217, 255, 0.09);
+    color: #00d9ff;
+    font-size: 18px;
+}
+
+.work-experience-card h4 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.55;
+    margin: 0 0 6px;
+    overflow-wrap: anywhere;
+}
+
+.work-experience-card p {
+    color: #c0cfdd;
+    font-size: 12px;
+    margin: 0 0 6px;
+    line-height: 1.6;
+}
+
+.work-experience-card span {
+    color: #7891a8;
+    font-size: 10px;
+}
+
+/* ORGANIZATION */
+
+.organization-card {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 20px;
+    border-radius: 14px;
+    background: rgba(0, 217, 255, 0.035);
+    border: 1px solid rgba(0, 217, 255, 0.12);
+}
+
+.organization-badge {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: rgba(0, 217, 255, 0.1);
+    color: #00d9ff;
+    font-size: 25px;
+}
+
+.organization-info h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.organization-info p {
+    color: #00d9ff;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.organization-info span {
+    color: #849db3;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+/* SKILLS SIDEBAR */
+
+.skills-modern {
+    position: sticky;
+    top: 100px;
+}
+
+.skills-description {
+    color: #95a9bd;
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 12px 0 22px;
+}
+
+/* RESPONSIVE TABLET */
+
+@media (max-width: 991px) {
+    .skills-modern {
+        position: static;
+    }
+
+    .profile-hero .about-photo {
+        max-width: 210px;
+        height: 230px;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width: 576px) {
+
+    .profile-modern-card {
+        padding: 19px;
+        border-radius: 15px;
+        margin-bottom: 17px;
+    }
+
+    .profile-hero {
+        padding: 22px 19px;
+    }
+
+    .profile-hero .about-photo {
+        width: 190px;
+        height: 210px;
+    }
+
+    .profile-name {
+        font-size: 27px;
+    }
+
+    .profile-description {
+        font-size: 13px;
+    }
+
+    .profile-section-heading {
+        gap: 11px;
+        margin-bottom: 20px;
+    }
+
+    .profile-heading-icon {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 18px;
+    }
+
+    .profile-section-heading h3 {
+        font-size: 17px;
+    }
+
+    .biodata-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .biodata-item {
+        padding: 14px;
+    }
+
+    .work-experience-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .organization-card {
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .organization-badge {
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+        font-size: 21px;
+    }
+}
